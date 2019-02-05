@@ -1,0 +1,49 @@
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 2em;
+  text-align: center;
+  letter-spacing: 6px;
+  color:black;
+}
+
+h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 2em;
+    letter-spacing: 2px;
+    color:black;
+  }
+
+  h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:black;
+  }
+
+
+p{
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  max-width:50%;
+  color: black;
+  letter-spacing: .4px;
+  line-height: 1.8em;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 2em;
+  text-align: right;
+  color: #11228b;
+  letter-spacing: 2px;
+}
