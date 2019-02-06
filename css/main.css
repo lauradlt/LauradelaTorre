@@ -11,7 +11,7 @@
   margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   display:flex;
 align-content: center;
 }
@@ -26,23 +26,17 @@ p{
     margin-top: 4em;
 }
 
-h6{
-  display: block;
-    margin-left: auto;
-    margin-right: 8em;
-    margin-top: 4em;
-    max-width: 40%;
-    text-align: right;
+h1{
+  color: #fa6970
 }
 
 h3{
   text-decoration: none;
   display: block;
-    margin-left: auto;
-    margin-right: 8em;
-    margin-top: 4em;
+    margin:0 auto;
+    margin-top: 1em;
     max-width: 40%;
-    text-align: right;
+    text-align: center;
 }
 
 h3 a:hover{
@@ -61,6 +55,13 @@ nav ul{
   justify-content: center;
   display: flex;
   padding-top: 35px;
+}
+
+nav ul li{
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  padding: 2em;
 }
 
 a {
@@ -94,13 +95,40 @@ padding-top: 7em;
   padding: 0;
 }
 
-#portfolio ul li{
+#projets ul li img{
   min-width:10%;
-  max-width:20%;
-  padding: 0;
+  max-width:100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
 }
 
 #reseaux ul li{
   text-decoration: none;
   text-align: center;
+}
+
+#reseaux ul{
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    border-radius:200px;
+    width:250px;
+    height:250px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.roundedImage img{
+  width: 0 auto;
+}
+
+.cv li {
+  margin: 0 auto;
 }
