@@ -8,13 +8,13 @@ h2{
   color:black;
 }
 
-h6{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    padding-top: 2em;
-    letter-spacing: 2px;
-    color:black;
+h1{
+  font-family: 'Merriweather', sans-serif;
+  font-weight:500;
+  font-size: 20px;
+  padding-top: 4em;
+  text-align: center;
+  letter-spacing: 3px;
   }
 
   h3{
@@ -22,8 +22,20 @@ h6{
     font-weight: 500;
     font-size: 15px;
     text-align: center;
+    margin:0 auto;
     letter-spacing: 2px;
     color:black;
+  }
+
+  h4{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    max-width:50%;
+    color: black;
+    letter-spacing: .4px;
+    line-height: 1.8em;
   }
 
 
@@ -42,7 +54,6 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 15px;
-  padding: 2em;
   text-align: right;
   color: #11228b;
   letter-spacing: 2px;
