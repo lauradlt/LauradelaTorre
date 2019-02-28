@@ -8,7 +8,7 @@
 
 #logo_footer img{
   width: 4%;
-  margin-top: 5em;
+  margin-top: 10em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
@@ -16,18 +16,17 @@
 align-content: center;
 }
 
-
-
-p{
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 40%;
-    margin-top: 4em;
+.fleche img{
+  width: 4%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  margin-bottom: 0.5em;
 }
 
-h1{
-  color: #fa6970
+h2{
+  margin-bottom: 1px;
 }
 
 h3{
@@ -45,9 +44,11 @@ h3 a:hover{
     color: #11228b;
 }
 
-
-h2{
-  margin-bottom: 1px;
+h5{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
 }
 
 nav ul{
@@ -82,25 +83,10 @@ display: block;
 }
 
 .content{
-max-width: 50%;
+max-width: 90%;
 margin: 0 auto;
 position: relative;
 padding-top: 7em;
-}
-
-#projets ul{
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  padding: 0;
-}
-
-#projets ul li img{
-  min-width:10%;
-  max-width:100%;
-  margin: 0 auto;
-  display: flex;
-  position: relative;
 }
 
 #reseaux ul li{
@@ -114,21 +100,36 @@ padding-top: 7em;
   padding-bottom: 3em;
 }
 
-.roundedImage{
+.roundedImage img{
     overflow:hidden;
     -webkit-border-radius:200px;
     -moz-border-radius:200px;
     border-radius:200px;
-    width:250px;
-    height:250px;
     margin: 0 auto;
     margin-top: 2em;
+    margin-bottom: 2em;
+    display: block;
+    width: 20%;
 }
 
-.roundedImage img{
-  width: 0 auto;
+
+
+.cercle{
+background:#fa6970;
+border-radius:50%;
+width:100px;
+height:100px;
+border:2px solid #fa6970;
+display: block;
+margin-left: 50px;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
 }
 
-.cv li {
+.grid-item{
+  width: 8%;
   margin: 0 auto;
+  display: block;
 }

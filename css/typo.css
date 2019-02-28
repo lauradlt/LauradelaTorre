@@ -13,8 +13,12 @@ h1{
   font-weight:500;
   font-size: 20px;
   padding-top: 4em;
-  text-align: center;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
   letter-spacing: 3px;
+  max-width: 40%;
+  color: #fa6970
   }
 
   h3{
@@ -38,16 +42,31 @@ h1{
     line-height: 1.8em;
   }
 
+  h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    max-width:50%;
+    color: black;
+    letter-spacing: .4px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+  }
+
 
 p{
   font-family: 'Merriweather', serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 14px;
   text-align: left;
-  max-width:50%;
+  max-width:40%;
   color: black;
   letter-spacing: .4px;
   line-height: 1.8em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
 }
 
 a {
@@ -57,4 +76,15 @@ a {
   text-align: right;
   color: #11228b;
   letter-spacing: 2px;
+}
+
+.cv h2, p{
+  text-align: left;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv h2{
+  color: #11228b;
 }
