@@ -32,6 +32,7 @@ align-content: center;
   margin-left: 310px;
   margin-right: auto;
   display:flex;
+  transform: rotate(90);
 }
 
 h2{
