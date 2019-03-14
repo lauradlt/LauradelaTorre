@@ -1,26 +1,30 @@
-h2{
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  padding-top: 2em;
-  text-align: center;
-  letter-spacing: 6px;
-  color:black;
-}
-
 h1{
   font-family: 'Merriweather', sans-serif;
   font-weight:500;
   font-size: 20px;
-  padding-top: 4em;
-  text-align: center;
+  padding-top: 1em;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
   letter-spacing: 3px;
+  max-width: 40%;
+  color: #fa6970
+  }
+
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 2em;
+    text-align: center;
+    letter-spacing: 6px;
+    color:black;
   }
 
   h3{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     margin:0 auto;
     letter-spacing: 2px;
@@ -29,25 +33,43 @@ h1{
 
   h4{
     font-family: 'Merriweather', serif;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: left;
-    max-width:50%;
-    color: black;
-    letter-spacing: .4px;
-    line-height: 1.8em;
+    font-weight: normal;
+    font-size: 13px;
+
   }
+
+  h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: left;
+
+  }
+
+  h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    margin:0 auto;
+    letter-spacing: 2px;
+    color:black;
+  }
+
 
 
 p{
   font-family: 'Merriweather', serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 14px;
   text-align: left;
-  max-width:50%;
+  max-width:40%;
   color: black;
   letter-spacing: .4px;
   line-height: 1.8em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
 a {
@@ -57,4 +79,15 @@ a {
   text-align: right;
   color: #11228b;
   letter-spacing: 2px;
+}
+
+.cv h2, p{
+  text-align: left;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv h2{
+  color: #11228b;
 }
