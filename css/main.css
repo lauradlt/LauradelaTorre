@@ -137,10 +137,6 @@ margin: 4em;
   grid-column: 1;
   grid-row: 1;
 }
-.photographie a:hover {
-  background-color: blue;
-  z-index: 2;
-}
 .photographie img {
 width: 100%;
 z-index: 1;
@@ -162,8 +158,16 @@ width: 100%;
 width: 100%;
 }
 
-.linogravure {
+.dictator {
   grid-column: 1;
+  grid-row: 2;
+}
+.dictator img {
+width: 100%;
+}
+
+.linogravure {
+  grid-column: 2;
   grid-row: 2;
 }
 .linogravure img {
@@ -171,7 +175,7 @@ width: 100%;
 }
 
 .projet05 {
-  grid-column: 2;
+  grid-column: 3;
   grid-row: 2;
 }
 .projet05 img {
@@ -179,8 +183,8 @@ width: 100%;
 }
 
 .projet06 {
-  grid-column: 3;
-  grid-row: 2;
+  grid-column: 1;
+  grid-row: 3;
 }
 .projet06 img {
 width: 100%;
