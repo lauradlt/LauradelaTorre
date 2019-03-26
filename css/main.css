@@ -133,11 +133,11 @@ grid-gap: 2em;
 margin: 4em;
 }
 
-.photographie {
+.landes {
   grid-column: 1;
   grid-row: 1;
 }
-.photographie img {
+.landes img {
 width: 100%;
 z-index: 1;
 }
@@ -150,11 +150,11 @@ z-index: 1;
 width: 100%;
 }
 
-.illustrations {
+.diplome {
   grid-column: 3;
   grid-row: 1;
 }
-.illustrations img {
+.diplome img {
 width: 100%;
 }
 
@@ -318,6 +318,100 @@ width: 100%;
 .jeu2 img {
 width: 100%;
 }
+
+#contenu_landes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 4em;
+  margin: 4em;
+}
+
+.landes01 {
+  grid-column: 2/6;
+  grid-row: 1;
+}
+.landes01 img {
+width: 100%;
+}
+
+.landes02 {
+  grid-column: 2/6;
+  grid-row: 2;
+}
+.landes02 img {
+width: 100%;
+}
+
+.landes03 {
+  grid-column: 2/6;
+  grid-row: 3;
+}
+.landes03 img {
+width: 100%;
+}
+
+.landes04 {
+  grid-column: 2/6;
+  grid-row: 4;
+}
+
+.landes04 img {
+width: 100%;
+}
+
+.landes05 {
+  grid-column: 2/4;
+  grid-row: 5;
+}
+
+.landes05 img {
+width: 100%;
+}
+
+
+#contenu_lino{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 4em;
+  margin: 4em;
+}
+
+.lino01 {
+  grid-column: 2/6;
+  grid-row: 1;
+}
+.lino01 img {
+width: 100%;
+}
+
+.lino02 {
+  grid-column: 2/4;
+  grid-row: 2;
+}
+.lino02 img {
+width: 100%;
+}
+
+.lino03 {
+  grid-column: 4/6;
+  grid-row: 2;
+}
+.lino03 img {
+width: 100%;
+}
+
+.lino04 {
+  grid-column: 3/5;
+  grid-row: 3;
+}
+
+.lino04 img {
+width: 100%;
+}
+
+
+
+
 
 
 .roundedImage img{
