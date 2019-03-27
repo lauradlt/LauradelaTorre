@@ -88,6 +88,10 @@ h5{
   margin-bottom: 0.5em;
 }
 
+h5 a:hover{
+  font-weight: bold;
+}
+
 h6{
   text-decoration: none;
   display: block;
