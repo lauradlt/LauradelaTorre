@@ -283,14 +283,6 @@ width: 100%;
 width: 100%;
 }
 
-.texte_dictator {
-  grid-column: 2;
-  grid-row: 2;
-}
-.texte_dictator img {
-width: 100%;
-}
-
 .face_borne {
   grid-column: 1;
   grid-row: 2;
@@ -432,11 +424,19 @@ align-content: center;
 }
 
 
-.texte_dictator {
-  margin:0 auto;
-  padding-left: 1px;
+.texte_dictator p {
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  text-align: left;
 }
 
+p{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  text-align: left;
+  max-width:40%;
+}
 
 .roundedImage img{
     overflow:hidden;
