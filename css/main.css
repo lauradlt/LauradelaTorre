@@ -126,7 +126,15 @@ nav a:hover{
   font-weight: bold;
 }
 
-nav a:focus{
+.propos a{
+  font-weight: bold;
+}
+
+.contact a{
+  font-weight: bold;
+}
+
+.accueil a{
   font-weight: bold;
 }
 
@@ -424,7 +432,10 @@ align-content: center;
 }
 
 
-
+.texte_dictator {
+  margin:0 auto;
+  padding-left: 1px;
+}
 
 
 .roundedImage img{
